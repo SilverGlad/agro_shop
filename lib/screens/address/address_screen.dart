@@ -13,6 +13,7 @@ class AddressScreen extends StatelessWidget {
       backgroundColor: Colors.white,
       appBar: AppBar(
         title: const Text('Entrega', style: TextStyle(color: Colors.white),),
+
         centerTitle: true,
       ),
       body: ListView(
