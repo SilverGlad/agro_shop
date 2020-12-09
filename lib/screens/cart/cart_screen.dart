@@ -22,7 +22,6 @@ class CartScreen extends StatelessWidget {
           if(cartManager.user == null){
             return LoginCard();
           }
-
           if(cartManager.items.isEmpty){
             return EmptyCard(
               iconData: Icons.remove_shopping_cart,
